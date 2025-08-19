@@ -10,13 +10,13 @@ This might especially be more apparent when you are creating heap challenges usi
 
 In the dockerfile provided, change the line
 
-```
+```dockerfile
 FROM ubuntu:18.04
 ```
 
 To any other base images depending on which libc version you want. Some of the ones that I tested with are 
 
-```
+```dockerfile
 FROM ubuntu:latest@sha256:b59d21599a2b151e23eea5f6602f4af4d7d31c4e236d22bf0b62b86d2e386b8f - (GNU C Library (Ubuntu GLIBC 2.39-0ubuntu8.4) stable release version 2.39)
 
 FROM ubuntu:latest@sha256:b59d21599a2b151e23eea5f6602f4af4d7d31c4e236d22bf0b62b86d2e386b8f - (GNU C Library (Ubuntu GLIBC 2.39-0ubuntu8.5) stable release version 2.39)
