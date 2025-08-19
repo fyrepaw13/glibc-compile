@@ -17,8 +17,6 @@ FROM ubuntu:18.04
 To any other base images depending on which libc version you want. Some of the ones that I tested with are 
 
 ```
-FROM ubuntu:latest@sha256:b59d21599a2b151e23eea5f6602f4af4d7d31c4e236d22bf0b62b86d2e386b8f - (GNU C Library (Ubuntu GLIBC 2.39-0ubuntu8.5) stable release version 2.39)
-
 FROM ubuntu:25.04@sha256:95a416ad2446813278ec13b7efdeb551190c94e12028707dd7525632d3cec0d1 - (GNU C Library (Ubuntu GLIBC 2.41-6ubuntu1.1) stable release version 2.41)
 
 FROM ubuntu:20.04 - (C Library (Ubuntu GLIBC 2.31-0ubuntu9.17) stable release version 2.31)
