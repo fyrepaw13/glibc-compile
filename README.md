@@ -27,3 +27,5 @@ FROM ubuntu:18.04 - (GNU C Library (Ubuntu GLIBC 2.27-3ubuntu1.6) stable release
 
 FROM ubuntu:16.04 - (GNU C Library (Ubuntu GLIBC 2.23-0ubuntu11.3) stable release version 2.23, by Roland McGrath et al)
 ```
+
+Then, run the `build-and-compile.sh` script to automatically build the docker image, compile the binary and automatically copy the binary out to your host machine. It also uses pwninit (assuming you already have pwninit installed) to patch the binary so that you can create an exploit locally.
